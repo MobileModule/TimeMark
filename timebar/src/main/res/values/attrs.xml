@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VideoTimeBarView">
+        <attr name="viewHeight" format="dimension" />
+        <!--中轴线颜色-->
+        <attr name="centerLineColor" format="color" />
+        <!--时间文字颜色-->
+        <attr name="rulerTextColor" format="color" />
+        <!--含有标注背景颜色-->
+        <!--奇数背景颜色-->
+        <attr name="tagOddNumAreaColor" format="color" />
+        <!--偶数背景颜色-->
+        <attr name="tagEvenNumAreaColor" format="color" />
+        <!--标注颜色-->
+        <attr name="tagTextColor" format="color" />
+        <!--刻度线颜色-->
+        <attr name="rulerLineColor" format="color" />
+        <!--中线颜色-->
+        <attr name="horizontalColor" format="color" />
+        <!--选择时间的边框颜色-->
+        <attr name="selectTimeBorderColor" format="color" />
+        <!--已选择时间颜色-->
+        <attr name="selectTimeAreaColor" format="color" />
+        <!--背景颜色-->
+        <attr name="viewBackgroundColor" format="color" />
+        <!--中轴线大小-->
+        <attr name="centerLineSize" format="dimension" />
+        <!--时间文字大小-->
+        <attr name="rulerTextSize" format="dimension" />
+        <!--小刻度线宽度-->
+        <attr name="smallRulerLineWidth" format="dimension" />
+        <!--小刻度线高度-->
+        <attr name="smallRulerLineHeight" format="dimension" />
+        <!--大刻度线宽度-->
+        <attr name="largeRulerLineWidth" format="dimension" />
+        <!--大刻度线高度-->
+        <attr name="largeRulerLineHeight" format="dimension" />
+        <!--选择时间边框大小-->
+        <attr name="showStopButton" format="boolean"/>
+        <attr name="canTouchEvent" format="boolean"/>
+
+    </declare-styleable>
+
+</resources>

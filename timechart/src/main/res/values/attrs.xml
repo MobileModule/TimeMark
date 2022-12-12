@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimeLineChartView">
+        <!--背景颜色-->
+        <attr name="viewBackgroundColor" format="color" />
+        <attr name="paintXAxisTimeBar" format="boolean"/>
+        <attr name="bindTimeBarTimer" format="boolean"/>
+        <attr name="bindTimeBarScroll" format="boolean"/>
+        <attr name="bindTimeBarSelectEvent" format="boolean"/>
+        <attr name="bindTimeBarStatusEvent" format="boolean"/>
+        <attr name="xAxisHeight" format="dimension"/>
+        <attr name="xAxisLineLColor" format="color" />
+        <attr name="xAxisRulerColor" format="color" />
+        <attr name="xAxisTextColor" format="color" />
+
+        <attr name="yAxisTextColor" format="color" />
+
+        <attr name="xAxisGridWidth" format="dimension"/>
+        <attr name="xAxisGridColor" format="color" />
+        <attr name="xAxisCenterGridColor" format="color" />
+    </declare-styleable>
+</resources>
